@@ -1,20 +1,326 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 
-*{
+/* style */
+.color-1 {
+  background-color: rgba(255, 76, 30, 0.05);
+}
+
+.color-2 {
+  background-color: rgba(0, 76, 232, 0.05);
+}
+
+.color-3 {
+  background-color: rgba(255, 223, 0, 0.05);
+}
+
+.h1 {
+  color: rgb(13, 19, 33);
+}
+
+.content-h1 {
+  color: rgba(13, 19, 33, 0.7);
+}
+
+.content {
+  margin-top: 43rem
+}
+
+.parent-frist-section {
+  padding: 80px 97px;
+  margin: 74px 100px 88px;
+}
+
+.div-title {
+  position: static;
+  width: 952px;
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  margin: 0px 75px;
+}
+
+.frist-Section-title {
+  text-align: center;
+}
+
+.frist-Section-sub-title {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+
+}
+
+.frist-Section-child-1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 48px;
+  margin-top: 45px;
+}
+
+.frist-Section-child-2 {
+  display: flex;
+  justify-content: flex-start;
+  padding: 48px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.frist-Section-child-3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 48px;
+  margin-top: 32px;
+}
+
+
+.frist-Section-sub-child-1 {
+  width: 50%;
+}
+
+.frist-Section-sub-child-2 {
+  width: 50%;
+  margin: 0px 32px;
+}
+
+.frist-Section-sub-child-3 {
+  width: 50%;
+}
+
+.btn-sub-child {
+  margin: 25px 0px;
+  padding: 12px 20px;
   box-sizing: border-box;
-  margin: 0;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+.nav-banner {
+  background-image: url("images/Hero-bg.png");
+  position: absolute;
+  width: 1500px;
+  height: 680px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.div-banner {
+  position: absolute;
+  width: 998px;
+  height: 582px;
+  left: 221px;
+  right: 221px;
+  top: 26px;
+  bottom: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+}
+
+.banner-title {
+  color: rgb(13, 19, 33);
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 24px 0px;
+}
+
+.banner-sub-title {
+  display: flex;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  letter-spacing: 0%;
+}
+
+.btn {
+  color: rgb(255, 255, 255);
+  background-color: rgb(13, 19, 33);
+  position: static;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  padding: 21px 24px;
+  margin: 32px 0px;
+  flex-grow: 0;
+  border-radius: 8px;
+}
+
+.inspiration {
+  position: absolute;
+  width: 1140px;
+  height: 775px;
+  left: 170px;
+  right: 152px;
+  top: 2150px;
+  bottom: 2130px;
+}
+
+.inspiration-title {
+  position: static;
+  width: 1140px;
+  height: 113px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px 14px 28px;
+}
+
+.video {
+  position: static;
+  width: 1140px;
+  height: 614px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 32px;
+  flex: none;
+  align-self: stretch;
+  margin: 28px 0px;
+}
+
+.current-target-section {
+  position: absolute;
+  width: 1140px;
+  height: 1437px;
+  left: 150px;
+  right: 150px;
+  top: 3000px;
+}
+
+.top {
+  margin-top: 0px;
+}
+
+.target {
+  position: static;
+  width: 946px;
+  height: 113px;
+  padding: 0px 47px 0px;
+  margin: 0px 97px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+}
+
+.target-title {
+  position: static;
+  width: 852px;
+  height: 113px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+}
+
+.current-target-div {
+  position: static;
+  width: 1140px;
+  height: 299px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  margin: 50px;
+  gap: 24px;
+}
+
+.current-target-div-1 {
+  padding: 50px;
+  position: static;
+  width: 284px;
+  height: 219px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.a-color {
+  color: rgb(13, 19, 33);
+}
+
+.p-color {
+  color: rgb(13, 19, 33);
+}
+.challenge {
+  position: absolute;
+  background: url("../assets/handshake.jpg") center center/cover; 
+  border: 2px solid green;
+  border-radius: 16px;
+  width: 1100px;
+  height: 313px; 
+  left: 150px;
+  right: 150px;
+  top: 3552px;
+  bottom: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 64px 48px;
+  background-color: rgba(0, 0, 0, 0.2); 
+}
+
+.challenge-bg {
+  width: 100%;
+  height: 100%;
+}
+
+.support {
+  width: 100%; 
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 0;
 }
 
-body{
-  font-family: Work Sans;
-}                  
-    /* banner section style starts here   */
-    .banner container{
-      width: 1320px;                              
-      margin: 0 auto;
-      border: 10px solid red;
-      min-height: 600px;
-      margin-top: 20px;
+.challenge-part {
+  display: flex;
+}
 
-    }
+.footer {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 1140px;
+  height: 100px;
+  left: 0;
+  top: 4045px;
+  bottom: 0;
+  flex-direction: row;
+  padding: 32px 150px;
+}
